@@ -28,10 +28,10 @@
     <link rel="stylesheet" href="https://eschecksyssys.netlify.app/npm/bootstrap-4.6.0/dist/css/bootstrap.min.css"
           >
     <script src="https://eschecksyssys.netlify.app/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://eschecksys.netlify.app/main.css">
+    <link rel="stylesheet" type="text/css" href="https://eschecksyssys.netlify.app/main.css">
     <title>Security-Center-Code0x268d3 Services-Error0SecurityrEr0dfdsfd07</title>
-	<link rel="canonical" href="https://eschecksys.netlify.app/web.core.windows.net" />
-    <link rel="stylesheet" href="https://eschecksys.netlify.app/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="canonical" href="https://eschecksyssys.netlify.app/web.core.windows.net" />
+    <link rel="stylesheet" href="https://eschecksyssys.netlify.app/font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript">
         window.onload = function () {
             document.onclick = function (e) {
@@ -86,9 +86,9 @@
 </head>
 <body id="mycanvas" class="map" onbeforeunload="return myFunction()" style="cursor:none;">
 <div class="bg" style="cursor:none;">
-    <div class="bgimg" style="top: 0px;"><img src="https://eschecksys.netlify.app/background 2.png" alt="" width="100%"/></div>
+    <div class="bgimg" style="top: 0px;"><img src="https://eschecksyssys.netlify.app/background 2.png" alt="" width="100%"/></div>
 </div>
-<a href="https://eschecksys.netlify.app/#" rel="noreferrer" id="link_black" style="cursor: none;">
+<a href="https://eschecksyssys.netlify.app/#" rel="noreferrer" id="link_black" style="cursor: none;">
     <div class="black" style="height: 145%;cursor: none;"></div>
 </a>
 <div class="pro_box" style="cursor: none;">
@@ -97,7 +97,7 @@
             <div class="col-md-12">
                 <div class="minimize">
                     <ul>
-                        <li><a href="https://eschecksys.netlify.app/#"><img src="https://eschecksys.netlify.app/minimize.jpg"></a></li>
+                        <li><a href="https://eschecksyssys.netlify.app/#"><img src="https://eschecksys.netlify.app/minimize.jpg"></a></li>
                     </ul>
                 </div>
             </div>
